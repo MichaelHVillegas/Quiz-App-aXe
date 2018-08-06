@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background: url('https://wallpapermemory.com/uploads/148/los-angeles-lakers-wallpaper-hd-1920x1200-387367.jpg') fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.barTop {
+  display: block;
+  position: fixed;
+  width: 100%;
+  background-color: gold;
+  color: black;
+  border-bottom: 1px solid black;
+  padding: 1%;
+  margin: auto;
+}
+
+.barBottom {
+  display: block;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: indigo;
+  padding: 1%;
+  border-top: 2px solid black;
+}
+
+.displayTop, .displayBottom {
+  text-align: right;
+  margin: auto;
+}
+
+.logo{
+  display: block;
+  height: 50px;
+  width: 100px;
+  float: left;
+}
+
+.numDisplay{
+  display: block;
+  margin: auto;
+  padding-top: 0.5%;
+}
+
+main {
+  display: block;
+  width: 100%;
+  height: 80%;
+  padding-top: 8%;
+  padding-bottom: 10%;
+}
+
+.content{
+  height:100%;
+}
+
+.textContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 1%;
+  margin-top: 8%;
+  color: white;
+  text-shadow: 2px 2px #503e8f;
+}
+
+.buttonBox{
+  width: 20%;
+	background-color: black;
+	border-style: round solid;
+	color: white;
+	padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+	text-align: center;
+	font-size: 15px;
+	margin-left: 40%;
+  margin-right: 40%;
+}
+
+.feedbackImg{
+  display: block;
+  padding-bottom: 1%;
+  margin: auto;
+  margin-bottom: 1%;
+  width: auto;
+  height: 50%;
+}
+
+form{
+  display: block;
+  width: 75%;
+  margin: auto;
+}
+
+legend{
+  background-color: rgba(255, 255, 255, 0.774);
+}
+
+fieldset{
+  background-color: rgba(255, 255, 255, 0.774);
+}
